@@ -7,4 +7,4 @@ if "%branch%"=="" set branch=main
 
 git add .
 git commit -m " %info% "
-git puch origin %branch%
+git push origin %branch%
